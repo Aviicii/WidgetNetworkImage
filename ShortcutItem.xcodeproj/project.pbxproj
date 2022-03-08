@@ -20,6 +20,12 @@
 		7B14E28827D5FE7C00ED3034 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B14E28727D5FE7C00ED3034 /* CoreDataStack.swift */; };
 		7B14E28927D6046800ED3034 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B14E28727D5FE7C00ED3034 /* CoreDataStack.swift */; };
 		7B14E28A27D6077900ED3034 /* ShortcutItem.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7B14E28427D5FE2B00ED3034 /* ShortcutItem.xcdatamodeld */; };
+		7B153C2D27D73A51002A6E47 /* 2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7B153C2C27D73A51002A6E47 /* 2.mp4 */; };
+		7B153C2E27D73A51002A6E47 /* 2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7B153C2C27D73A51002A6E47 /* 2.mp4 */; };
+		7B153C3027D73A7D002A6E47 /* WidgetVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B153C2F27D73A7D002A6E47 /* WidgetVideoView.swift */; };
+		7B153C3127D73A7D002A6E47 /* WidgetVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B153C2F27D73A7D002A6E47 /* WidgetVideoView.swift */; };
+		7B153C3327D7411D002A6E47 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B153C3227D7411D002A6E47 /* VideoViewController.swift */; };
+		7B153C3427D7411D002A6E47 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B153C3227D7411D002A6E47 /* VideoViewController.swift */; };
 		7BAD5D1F27D1E08400FA9C31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAD5D1E27D1E08400FA9C31 /* AppDelegate.swift */; };
 		7BAD5D2327D1E08400FA9C31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAD5D2227D1E08400FA9C31 /* ViewController.swift */; };
 		7BAD5D2627D1E08400FA9C31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BAD5D2427D1E08400FA9C31 /* Main.storyboard */; };
@@ -60,6 +66,9 @@
 		7B14E28127D5B3C200ED3034 /* WidgetImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetImageLoader.swift; sourceTree = "<group>"; };
 		7B14E28527D5FE2B00ED3034 /* ShortcutItem.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ShortcutItem.xcdatamodel; sourceTree = "<group>"; };
 		7B14E28727D5FE7C00ED3034 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		7B153C2C27D73A51002A6E47 /* 2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 2.mp4; sourceTree = SOURCE_ROOT; };
+		7B153C2F27D73A7D002A6E47 /* WidgetVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetVideoView.swift; sourceTree = "<group>"; };
+		7B153C3227D7411D002A6E47 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 		7BAD5D1B27D1E08300FA9C31 /* ShortcutItem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShortcutItem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BAD5D1E27D1E08400FA9C31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7BAD5D2227D1E08400FA9C31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -94,8 +103,10 @@
 		7B14E27027D59C0D00ED3034 /* WidgetImage */ = {
 			isa = PBXGroup;
 			children = (
+				7B153C2C27D73A51002A6E47 /* 2.mp4 */,
 				7B14E27127D59C0D00ED3034 /* WidgetImage.swift */,
 				7B14E27E27D59F5400ED3034 /* WidgetImageView.swift */,
+				7B153C2F27D73A7D002A6E47 /* WidgetVideoView.swift */,
 				7B14E28127D5B3C200ED3034 /* WidgetImageLoader.swift */,
 				7B14E28727D5FE7C00ED3034 /* CoreDataStack.swift */,
 				7B14E27327D59C0F00ED3034 /* Assets.xcassets */,
@@ -129,6 +140,7 @@
 			children = (
 				7BAD5D1E27D1E08400FA9C31 /* AppDelegate.swift */,
 				7BAD5D2227D1E08400FA9C31 /* ViewController.swift */,
+				7B153C3227D7411D002A6E47 /* VideoViewController.swift */,
 				7BAD5D2427D1E08400FA9C31 /* Main.storyboard */,
 				7BAD5D2727D1E08600FA9C31 /* Assets.xcassets */,
 				7BAD5D2927D1E08600FA9C31 /* LaunchScreen.storyboard */,
@@ -227,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B153C2E27D73A51002A6E47 /* 2.mp4 in Resources */,
 				7B14E27427D59C0F00ED3034 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -237,6 +250,7 @@
 			files = (
 				7BAD5D2B27D1E08600FA9C31 /* LaunchScreen.storyboard in Resources */,
 				7BAD5D2827D1E08600FA9C31 /* Assets.xcassets in Resources */,
+				7B153C2D27D73A51002A6E47 /* 2.mp4 in Resources */,
 				7BAD5D2627D1E08400FA9C31 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,6 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B153C3127D73A7D002A6E47 /* WidgetVideoView.swift in Sources */,
+				7B153C3427D7411D002A6E47 /* VideoViewController.swift in Sources */,
 				7B14E28A27D6077900ED3034 /* ShortcutItem.xcdatamodeld in Sources */,
 				7B14E28927D6046800ED3034 /* CoreDataStack.swift in Sources */,
 				7B14E28327D5B53F00ED3034 /* WidgetImageLoader.swift in Sources */,
@@ -260,7 +276,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B153C3027D73A7D002A6E47 /* WidgetVideoView.swift in Sources */,
 				7B14E28227D5B3C200ED3034 /* WidgetImageLoader.swift in Sources */,
+				7B153C3327D7411D002A6E47 /* VideoViewController.swift in Sources */,
 				7B14E27F27D59F5400ED3034 /* WidgetImageView.swift in Sources */,
 				7B14E28627D5FE2B00ED3034 /* ShortcutItem.xcdatamodeld in Sources */,
 				7B14E28827D5FE7C00ED3034 /* CoreDataStack.swift in Sources */,
@@ -489,7 +507,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -519,7 +537,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

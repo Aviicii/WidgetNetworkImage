@@ -41,11 +41,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
-        let vc:ViewController = ViewController()
+        let vc = ViewController()
         switch url.path {
         case "small":
-            vc.color = .red
-            break
+            window.rootViewController = VideoViewController()
+            return true
+//            break
         case "medium":
             vc.color = .yellow
             break

@@ -45,9 +45,10 @@ struct WidgetImageEntryView : View {
     var body: some View {
         switch family {
         case .systemSmall:
-            WidgetImageView(url: "https://img2.baidu.com/it/u=4081159490,1049549245&fm=253&fmt=auto&app=138&f=PNG")
-                .aspectRatio(contentMode: .fill)
-                .frame(width: 30, height: 30, alignment: .center)
+//            WidgetImageView(url: "https://img2.baidu.com/it/u=4081159490,1049549245&fm=253&fmt=auto&app=138&f=PNG")
+//                .aspectRatio(contentMode: .fill)
+//                .frame(width: 30, height: 30, alignment: .center)
+            WidgetVideoView()
                 .widgetURL(URL(string: "small"))
         case .systemMedium:
             WidgetImageView(url: path)
